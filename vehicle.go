@@ -167,11 +167,11 @@ func showRating(model string) {
 			fmt.Printf("Total Ratings:%v\tPositive:%v\tNegative:%v\tNeutral:%v", r.feedbackTotal, r.feedbackPositive, r.feedbackNegative, r.feedbackNeutral)
 
 			ratingFound = true
-		}
+		}		
+	}
 
-		if !ratingFound {
-			fmt.Printf("No rating for this vehcile")
-		}
+	if !ratingFound {
+		fmt.Printf("No rating for this vehcile")
 	}
 }
 
